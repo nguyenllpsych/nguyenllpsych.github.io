@@ -212,8 +212,9 @@ input, select, textarea {
 		width: 1400px;
 	}
 	.one-container {
-		height:15em;
+		height:auto;
 	}
+	
 
 		@media screen and (min-width: 961px) and (max-width: 1880px) {
 
@@ -1974,6 +1975,9 @@ input, select, textarea {
 		.button:active {
 			background-color: #bc5361;
 		}
+	.cv span{
+		display: block;
+	}
 
 /* Item */
 
@@ -2239,7 +2243,7 @@ input, select, textarea {
 					}
 
 			#main > section.cover {
-				padding: 5em 0 5em 0;
+				padding: 1em 0 5em 0;
 				background-size: cover;
 				background-position: center center;
 			}
@@ -2260,6 +2264,43 @@ input, select, textarea {
 			#main > section.four {
 				background-color: #e8edec;
 			}
+			.header-container {
+				padding-top: 3em;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+			}
+			#header-container-img {
+				border-radius: 50%;
+				width: 10em;
+				height: 10em;
+			}
+			.bio-text {
+				width: 40em;
+				text-align: justify;
+				padding-left: 2em;
+			}
+			.bio-bot {
+				padding-top: 3em;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+			}
+			.bio-bot ul {
+				padding-top: 1em;
+			}
+			.bio-bot li {
+				list-style: none;
+				text-align: left;
+			}
+			.bio-bot p {
+				margin-bottom: 0;
+			}
+			.education-span {
+				opacity: .6;
+				font-size: 1.25rem;
+			}
+			
 
 /* Wide */
 
