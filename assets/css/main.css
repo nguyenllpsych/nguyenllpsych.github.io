@@ -2300,6 +2300,31 @@ input, select, textarea {
 				opacity: .6;
 				font-size: 1.25rem;
 			}
+			.education {
+				list-style: none;
+				padding: 0;
+			}
+			.education-li {
+				padding-left: 1.3em;
+			  }
+			.education-li::before {
+				content: "\f19d"; 
+				font-family: FontAwesome;
+				display: inline-block;
+				margin-left: -1.3em; 
+				width: 1.3em; 
+				color: black;
+				position: absolute;
+			  }
+			.ra-content h3 {
+				text-align: left;
+				font-size: 1.75rem;
+				font-weight: bold;
+			}
+			.ra-content li {
+				text-align: left;
+				font-size: 1.5rem;
+			}
 /*Mobile media query */
 @media screen and (max-width: 736px) {
 	.header-container {
