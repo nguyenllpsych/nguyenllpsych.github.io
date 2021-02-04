@@ -1722,7 +1722,7 @@ input, select, textarea {
 							padding-top: 40px;
 						}
 
-		}
+		}*/
 
 /* Sections/Article */
 
@@ -2332,9 +2332,59 @@ input, select, textarea {
 			#research {
 				padding-bottom: 0;
 			}
-			#personality {
+			#personality, #identity, #measurement {
 				padding-right: 5%;
 				padding-left: 5%;
+			}
+			.name {
+				font-weight: bold;
+			}
+			.tab-content-h3 {
+				font-size: 1.25em;
+			}
+			.pic-container {
+				margin: 0 auto;
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: center;
+			}
+			.pic-col-1 {
+				display: flex;
+				flex-direction: column;
+				margin-right: 1em;
+			}
+			.pic-col-2 {
+				display: flex;
+				flex-direction: column;
+				margin-right: 1em;
+			}
+			.pic-col-3 {
+				display:flex;
+				flex-direction: column;;
+				margin-right: 1em;
+			}
+		@media screen and (max-width: 1880px) {
+			.pic-col-3 {
+				flex-direction: row;
+				justify-content: center;
+			}
+			#mug-cozies {
+				margin-right: 1em;
+			}
+		}
+		@media screen and (max-width: 853px) {
+			.pic-col-3 {
+				flex-direction: column;
+				justify-content: center;
+			}
+			#mug-cozies {
+				margin: 0 auto;
+			}
+		}
+			.personal-imgs {
+				width: 17em;
+				height: 19em;
 			}
 			/* Style the tab */
 .tab {
@@ -2781,3 +2831,22 @@ input, select, textarea {
 				}
 
 	}
+/*Mobile media query for Research Section*/
+@media screen and (max-width: 675px) {
+	.tab button {
+		font-size: 1.2em;
+	}
+	.ra-content h3 {
+		font-size: 1.2em;
+	}
+}
+@media screen and (max-width: 485px) {
+	.tab button {
+		font-size: 1em;
+	}
+}
+@media screen and (max-width: 424px) {
+	.tab button {
+		font-size: .75em;
+	}
+}
