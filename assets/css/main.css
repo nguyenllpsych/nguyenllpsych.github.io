@@ -1753,16 +1753,16 @@ input, select, textarea {
 		}
 
 		.image.avatar48 {
-			width: 80px;
-			height: 80px;
+			width: 70px;
+			height: 70px;
 			background: #f00;
 			display:block;
   			margin:auto;
 		}
 
 			.image.avatar48 img {
-				width: 80px;
-				height: 80px;
+				width: 70px;
+				height: 70px;
 			}
 
 		.image.fit {
@@ -2253,8 +2253,8 @@ input, select, textarea {
 
 			#main > section.one {
 				background: rgb(230,235,235);
-				color: black;
-				/*background-image: url("../../images/banner.jpg");*/
+				color: #888;
+				background-image: url("/assets/css/images/overlay.png");
 			}
 
 			#main > section.two {
@@ -2283,6 +2283,9 @@ input, select, textarea {
 				width: 40em;
 				text-align: justify;
 				padding-left: 2em;
+			}
+			.bio-text p {
+				line-height: 1.75em
 			}
 			.bio-bot {
 				padding-top: 3em;
@@ -2322,12 +2325,10 @@ input, select, textarea {
 			  }
 			.ra-content h3 {
 				text-align: left;
-				font-size: 1.75rem;
 				font-weight: bold;
 			}
 			.ra-content li {
 				text-align: left;
-				font-size: 1.5rem;
 			}
 			#research {
 				padding-bottom: 0;
